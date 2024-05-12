@@ -1,0 +1,67 @@
+.booking {
+  color: white;
+  width: fit-content;
+  margin: auto;
+  margin-top: 25px;
+}
+.booking-container {
+  background-color: #3bb5c5;
+  width: 400px;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.booking-userDetails {
+  margin-top: 5px;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  border-radius: 20px;
+}
+.booking-userDetails > h2 {
+  text-align: center;
+}
+#booking-username {
+  color: purple;
+  font-weight: 800;
+}
+.booking-hotelDetails {
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  border-radius: 20px;
+}
+.booking-hotelDetails > h2 {
+  text-align: center;
+}
+.booking-hotelDetails > h4 > span {
+  color: purple;
+  font-weight: 800;
+}
+.booking-roomDetails {
+  display: flex;
+}
+.booking-roomDetails > p {
+  margin-right: 10px;
+  color: whitesmoke;
+}
+.booking-roomNumbers {
+  display: flex;
+}
+.booking-roomNumbers > p {
+  margin-right: 10px;
+  color: purple;
+}
+.booking-bookedDates {
+  display: flex;
+}
+.booking-bookedDates > p {
+  margin-right: 10px;
+  color: purple;
+}
+.booking-info {
+  color: #333;
+  text-align: center;
+}
