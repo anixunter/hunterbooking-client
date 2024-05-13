@@ -81,8 +81,11 @@ const Booking = () => {
             </div>
           </div>
         </div>
-        <div className="booking-info">
+        <div className="booking-thanks">
           <p>Thank you for booking with us!</p>
+        </div>
+        <div className="booking-info">
+          <p>Please show this in lobby when u check in!</p>
         </div>
       </div>
     </>
